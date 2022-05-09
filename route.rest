@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6275c9456a2f3bff970e7914
+
+###
+
+POST http://localhost:3000/subscribers
+content-Type: application/json
+
+{
+    "name": "Bayo Dev",
+    "subscribedToChannel": "Udemy"
+}
+
+###
+
+
+PATCH  http://localhost:3000/subscribers/6275c9456a2f3bff970e7914
+content-Type: application/json
+
+{
+    "name": "Rasak"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6275cc8cb2952a5490c34ae0
